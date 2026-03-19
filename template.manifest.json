@@ -112,7 +112,10 @@
         "headline": "Chamage2",
         "heroType": "carousel",
         "overline": "Luxury Residences",
-        "backgroundImage": "https://pub-da5fe52c12854625bef20ed173f635f1.r2.dev/templates/noir-luxury/defaults/default-hero.jpg"
+        "mobileLayout": "fullscreen",
+        "overlayEnabled": true,
+        "backgroundImage": "https://pub-da5fe52c12854625bef20ed173f635f1.r2.dev/templates/noir-luxury/defaults/default-hero.jpg",
+        "overlayIntensity": "medium"
       },
       "name": "Hero Section",
       "schema": {
@@ -540,7 +543,7 @@
             "description": "Landscaped terrace with outdoor entertainment area"
           },
           {
-            "icon": "lucide:wifi",
+            "icon": "lucide:thermometer",
             "label": "Smart Home",
             "description": "Fully integrated home automation system"
           }
@@ -656,6 +659,7 @@
         "eyebrow": "Pricing",
         "heading": "Exclusive Pricing",
         "siteToken": "16ed8fa4-91ac-47b4-abfc-ac08fe52e757",
+        "priceLabel": "Starting From",
         "successNote": "Our private advisory team has received your request and will contact you shortly with the full brochure and tailored payment plans.",
         "brochureFile": "",
         "modalEyebrow": "Exclusive Access",
@@ -1268,5 +1272,16 @@
     "navigation",
     "footer",
     "seo"
-  ]
+  ],
+  "styleOverrides": {
+    "hero": {
+      "headline": {
+        "fontSize": {
+          "mobile": "2rem",
+          "tablet": "7rem",
+          "desktop": "7rem"
+        }
+      }
+    }
+  }
 }
